@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";	
+	width: 100%;
+	height: 100%;
+	background-color: #7d97ad;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo-section {
+	width: 80%;
+}
+.logo {
+	width: 200px;
+	height: 100px;
+	align-content: right;
+}
+.name-section {
+ 	width: 20%;
+}
+.name {
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.job {
+	font-size: 20px;
+	color: #c0c0c0;
+	text-align: center;
+}
+h1 {
+	font-size:100px;
+	text-align: center;
+}
+.main {
+	width: 100%;
+}
+.main-image {
+	width: 1073px;
+	height: 536px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.aboutme {
+	margin-top: 10%;
+	width: 33.3%;
+	order: 0;
+}
+.image{
+	width: 288px;
+	height: 192px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 1;
+}
+.image:hover {
+	opacity: 0.8;
+	border-style: solid;
+	border-color: #FFF502;
+}
+.title {
+	font-size: 25px;
+	text-align: center;
+}
+.projects {
+	margin-top: 10%;
+	width: 33.3%;
+	order: 1;
+}
+.education {
+	margin-top: 10%;
+	width: 33.3%;
+	order: 2;
+}
+
+/* for mobile phones*/
+@media screen and (max-width: 420px) {
+	h1 {
+	font-size: 50px;
+	}
+	.logo-section {
+		width: 40%;
+	}
+	.logo {
+		width: 100px;
+		height: 50px;	
+  		}
+	.name-section {
+		width: 60%;
+	}
+	.name  {
+		font-size: 15px;
+		text-align: center;
+	}
+	.job {
+		font-size: 12px;
+		text-align: center;
+	}
+	.main-image {
+		width: 308px;
+		height: 154px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10%;
+		}
+	.image {
+		width: 144px;
+		height: 96px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.aboutme {
+		width: 100%;
+	}
+	.projects{
+		width: 100%;		
+	}
+	.education {
+		width: 100%;
+	}
+}
+
+/*for tablets*/
+@media screen and (min-width:421px) and (max-width:950px) {
+	h1 {
+		font-size: 50px;
+	}
+	.logo-section {
+		width:50%;
+	}
+	.logo {
+		width: 150px;
+		height: 75px;	
+  		}
+	.name-section {
+		width: 50%;
+	}
+	.name{
+		font-size: 25px;
+		text-align: center;
+   		}
+	.job {
+		font-size: 20px;
+		text-align: center;
+	}
+	.main-image {
+		width: 644px;
+		height: 321px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20%;
+		}
+	.image{
+		width: 347px;
+		height: 230px;
+	}
+	.title {
+		font-size: 35px;
+	}
+	.aboutme {
+		width: 100%;
+	}
+	.projects{
+		width: 100%;		
+	}
+	.education {
+		width: 100%;
+	}
+}
